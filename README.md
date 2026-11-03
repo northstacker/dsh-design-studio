@@ -1,7 +1,7 @@
 # 设计工作台（Design Studio）
 
 ![license](https://img.shields.io/badge/license-MIT-blue)
-![tests](https://img.shields.io/badge/checks-227%20passing-brightgreen)
+![tests](https://img.shields.io/badge/checks-211%20passing-brightgreen)
 ![platform](https://img.shields.io/badge/platform-DeepSeek%20Harness%20Web-6f42c1)
 
 DeepSeek Harness 内嵌的分层设计工作台：上传图片、按图层排版，把不同设计里的图片层 / 文字层绑到同一个绑定组，一处修改多图同步，最后批量导出 PNG / JPG / ZIP。
@@ -140,7 +140,7 @@ npm install        # 只为测试安装 @napi-rs/canvas（Skia），插件运行
 npm test
 ```
 
-四个套件共 227 项检查，直接 import 发布源码，因此测的就是装进去的代码：
+四个套件共 211 项检查，直接 import 发布源码，因此测的就是装进去的代码：
 
 | 套件 | 数量 | 覆盖 |
 | --- | --- | --- |
