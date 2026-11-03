@@ -24,7 +24,7 @@ DeepSeek Harness 内嵌的分层设计工作台：上传图片、按图层排版
 仓库只包含插件本体（`client.js` 已构建好，装完即用）。
 
 ```bash
-git clone https://github.com/3257604461am-dot/dsh-design-studio.git
+git clone https://github.com/northstacker/dsh-design-studio.git
 ```
 
 然后在 DeepSeek Harness 里任选一种：

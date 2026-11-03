@@ -33,9 +33,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/3257604461am-dot/dsh-design-studio.git"
+    "url": "git+https://github.com/northstacker/dsh-design-studio.git"
   },
-  "homepage": "https://github.com/3257604461am-dot/dsh-design-studio#readme",
+  "homepage": "https://github.com/northstacker/dsh-design-studio#readme",
   "keywords": [
     "deepseek-harness",
     "dsh-plugin",
