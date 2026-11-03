@@ -1,0 +1,54 @@
+{
+  "name": "@local/design-studio",
+  "version": "1.0.0",
+  "description": "Layered design workbench plugin for DeepSeek Harness: image & text layers, cross-design layer bindings, batch PNG/JPG/ZIP export",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-conversation"
+      ]
+    }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3257604461am-dot/dsh-design-studio.git"
+  },
+  "homepage": "https://github.com/3257604461am-dot/dsh-design-studio#readme",
+  "keywords": [
+    "deepseek-harness",
+    "dsh-plugin",
+    "design-tool",
+    "canvas",
+    "image-editing",
+    "layer"
+  ],
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node test/test-model.mjs && node test/test-render.mjs && node test/test-host.mjs && node test/test-client.mjs"
+  },
+  "devDependencies": {
+    "@napi-rs/canvas": "^1.1.0"
+  }
+}

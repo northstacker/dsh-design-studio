@@ -1,0 +1,3 @@
+- insert:
+    - id: design-studio
+      name: '@local/design-studio'
